@@ -1,8 +1,6 @@
-# Hoja de trabajo 1
+# Hoja de trabajo 2
 
-Esta tarea consiste en desarrollar un sitio web estático utilizando únicamente HTML. El propósito del sitio es presentar
-una página informativa sobre un lugar turístico de Guatemala con información básica implementando diferentes elementos
-HTML.
+Esta tarea consiste en desarrollar un sitio web estático utilizando únicamente HTML y CSS para mejorar el diseño de la página. El propósito del sitio es presentar una página informativa sobre un lugar turístico de Guatemala con información básica implementando diferentes elementos HTML y reglas CSS.
 
 ## Authors
 
