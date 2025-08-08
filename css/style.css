@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu{
+    width: 100%;
+    height: 65px;
+    background-color: black;
+    display: flex;
+    justify-content: start;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.menu a:hover{
+    cursor: pointer;
+    font-weight: bold;
+    border-bottom: solid 1px white;
+}
+
+.title-container{
+    background-image: url("https://www.palasantour.com/wp-content/uploads/2016/09/lago-atitlan.jpg");
+    position: relative;
+    width: 100%;
+    height: 370px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.title{
+    position: relative;
+    text-align: center;
+}
+
+.description{
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.galery{
+    padding-left: 20px;
+}
+
+.galery-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.galery-container{
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galery-container img{
+    border-radius: 10px;
+    width: 100%;
+    height: 150px;
+}
+
+.galery-container img:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.itinerary, .activities{
+    padding-left: 20px;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
