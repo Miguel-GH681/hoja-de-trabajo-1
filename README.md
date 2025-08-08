@@ -10,4 +10,4 @@ Esta tarea consiste en desarrollar un sitio web estático utilizando únicamente
 
 Para ver la página web publicada por favor haga click en el siguiente enlace
 
-- [@Tarea 1](https://sparkly-douhua-b13888.netlify.app/)
+- [@Hoja de trabajo 2](https://astonishing-haupia-66da6b.netlify.app/)
