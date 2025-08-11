@@ -1,6 +1,6 @@
 # Hoja de trabajo 3
 
-Esta tarea consiste en desarrollar un sitio web estático utilizando únicamente HTML y CSS para mejorar el diseño de la página. El propósito del sitio es presentar una página informativa sobre un lugar turístico de Guatemala con información básica implementando diferentes elementos HTML y reglas CSS.
+Esta tarea consiste en desarrollar un sitio web estático utilizando únicamente HTML, CSS y Bootstrap para mejorar el diseño de la página además de lograr un diseño 100% responsive que sea capaz de adaptarse a cualquier tipo de pantalla para esto se implemento media queries pero también las clases por defecto de Bootstrap, como por ejemplo, su avanzodo manejo de filas y columnas (row y col).
 
 ## Authors
 
