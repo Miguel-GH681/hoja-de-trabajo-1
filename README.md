@@ -10,4 +10,4 @@ Esta tarea consiste en desarrollar un sitio web estático utilizando únicamente
 
 Para ver la página web publicada por favor haga click en el siguiente enlace
 
-- [@Hoja de trabajo 2](https://astonishing-haupia-66da6b.netlify.app/)
+- [@Hoja de trabajo 3](https://tubular-taiyaki-978318.netlify.app/)
