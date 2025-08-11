@@ -1,0 +1,10 @@
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img{
+    margin: 20px;
+    height: 350px;
+    border-radius: 10px;
+}

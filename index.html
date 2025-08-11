@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Hoja de trabajo 1</title>
+		<title>Hoja de trabajo 3</title>
 		<link rel="stylesheet" href="./css/style.css">
-	</head>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">	</head>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 	<body>
-		<div class="menu">
-			<a href="#galery">Galería</a>
-			<a href="#itinerary">Itinerario</a>
-			<a href="#activities">Actividades</a>
-		</div>
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="./index.html">Inicio</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+						<a class="nav-link" href="./atraction.html">Atracciones</a>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link" href="./lodging.html">Alojamiento</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 		<div class="title-container">
 			<div class="overlay">
-				<h1 class="title">Panajachel</h1>
+				<h1 class="title">Lago de Atitlán</h1>
 			</div>
 		</div>
 		<div class="description">
@@ -64,7 +78,7 @@
 		
 		<div class="itinerary" id="itinerary">
 			<h2>Tabla de itinerarios</h2>
-			<table>
+			<table class="table table-bordered table-striped">
 				<tr>
 					<th>Fecha</th>	
 					<th>Horario</th>	
