@@ -101,3 +101,8 @@ td, th {
     justify-content: center;
     align-items: center;
 }
+
+.dismissTable{
+    display: none;
+    color: red;
+}
