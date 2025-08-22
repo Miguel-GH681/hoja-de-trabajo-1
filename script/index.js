@@ -1,8 +1,8 @@
 let tblCaminata = document.getElementById("tblCaminata");
 let tblLancha = document.getElementById("tblLancha");
 let tblPueblo = document.getElementById("tblPueblo");
+let buttons = document.querySelectorAll(".button-container button");
 
-let buttons = document.querySelectorAll("button");
 let myComments = [];
 
 let comments = [
@@ -16,7 +16,7 @@ let comments = [
     'El silencio del lago solo se interrumpía con el sonido rítmico del motor de la lancha.',
     'Desde la cima de la escalinata, el lago parecía un espejo gigante que reflejaba las montañas.',
     'El recorrido en lancha nos permitió acercarnos a rincones del lago que desde arriba parecían inalcanzables.'
-]
+];
 
 let names = [
     'Carlos Méndez',
@@ -29,7 +29,7 @@ let names = [
     'Elena Vargas',
     'Pedro Navarro',
     'Laura Fuentes'
-]
+];
 
 const getRandom = ()=>{
     myComments = [];
@@ -44,36 +44,45 @@ const getRandom = ()=>{
     }
 }
 
-buttons.forEach((button, index)=>{
-    button.addEventListener("click",  ()=>{        
-        if(index == 1){
+buttons.forEach((button, index)=>{    
+    button.addEventListener("click",  ()=>{      
+        if(index == 0){
             tblCaminata.classList.remove("dismissTable");
             tblLancha.classList.add("dismissTable");
             tblPueblo.classList.add("dismissTable");
-        } else if(index == 2){
+            buttons[0].classList.add('activated-button');
+            buttons[1].classList.remove('activated-button');
+            buttons[2].classList.remove('activated-button');
+        } else if(index == 1){
             tblCaminata.classList.add("dismissTable");
             tblLancha.classList.remove("dismissTable");
             tblPueblo.classList.add("dismissTable");
+            buttons[0].classList.remove('activated-button');
+            buttons[1].classList.add('activated-button');
+            buttons[2].classList.remove('activated-button');
         } else{
             tblCaminata.classList.add("dismissTable");
             tblLancha.classList.add("dismissTable");
             tblPueblo.classList.remove("dismissTable");
+            buttons[0].classList.remove('activated-button');
+            buttons[1].classList.remove('activated-button');
+            buttons[2].classList.add('activated-button');
         }
-    })
+    });
 });
 
 getRandom();
+const title = document.createElement('h4');
+title.textContent = 'Comentarios';
+document.getElementById('comment-container').appendChild(title);
+
 myComments.forEach((value)=>{
     const mainParagraph = document.createElement('p');
-    const title = document.createElement('b');
-    title.textContent = names[value];
-    mainParagraph.appendChild(title);
-    const secondaryParagraph = document.createElement('p')
+    const user = document.createElement('b');
+    user.textContent = names[value];
+    mainParagraph.appendChild(user);
+    const secondaryParagraph = document.createElement('p');
     secondaryParagraph.textContent = comments[value];
-    document.getElementById('commentContainer').appendChild(mainParagraph);
-    document.getElementById('commentContainer').appendChild(secondaryParagraph);
+    document.getElementById('comment-container').appendChild(mainParagraph);
+    document.getElementById('comment-container').appendChild(secondaryParagraph);
 });
-
-
-
-

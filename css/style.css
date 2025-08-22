@@ -106,3 +106,16 @@ td, th {
     display: none;
     color: red;
 }
+
+button {
+    width: 30px;
+    height: 30px;
+    background-color: #212529;
+    border: 1px solid #212529;
+    color: white;
+}
+
+.activated-button{
+    background-color: #9b9d9e;
+    border: 1px solid #9b9d9e;
+}

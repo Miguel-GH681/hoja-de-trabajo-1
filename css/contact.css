@@ -1,0 +1,34 @@
+/* .input-container{
+    display: flex;
+    justify-content: space-around;
+} */
+
+.main-container{
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container{
+    border: 1px solid #9b9d9e;
+    border-radius: 10px;
+    width: 35%;
+    padding: 20px;
+}
+
+.input-container{
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+input{
+    border: 1px solid #9b9d9e;
+    border-radius: 5px;
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+}

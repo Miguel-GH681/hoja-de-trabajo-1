@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Contacto</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">	</head>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </head>
@@ -31,5 +31,52 @@
             </div>
         </div>
     </nav>
+    <div class="main-container">
+        <div class="form-container">
+            <h4>Contacto</h4>
+            <hr>
+            <div class="input-container">
+                Nombre <br>
+                <input type="text" id="nameInput">
+            </div>
+            <div class="input-container">
+                Fecha de nacimiento <br>
+                <input type="date" id="dateInput">
+            </div>
+            <div class="input-container">
+                Correo electrónico <br>
+                <input type="email" id="emailInput">
+            </div>
+            <div class="input-container">
+                Mensaje <br>
+                <textarea rows="4" id="messageInput"></textarea>
+            </div>
+            <div class="d-flex justify-content-center">
+                <button type="button" class="btn btn-warning" data-bs-target="#exampleModal" id="formButton">
+                    Enviar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            ...
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+        </div>
+    </div>
+    </div>
+    <script src="./script/contact.js"></script>
 </body>
 </html>
